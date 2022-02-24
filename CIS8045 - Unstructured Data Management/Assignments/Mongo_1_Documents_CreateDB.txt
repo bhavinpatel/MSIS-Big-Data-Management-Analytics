@@ -1,0 +1,143 @@
+document={Type: "Book",
+	Title: "Definitive Guide to MongoDB 2nd ed.",
+	Page: 210,
+	Year: 2014,
+	ISBN: "100-1-213422-56-8",
+	Publisher: "Apress",
+	Author: ["David Hows", "Eelco Plugge", "Peter, Membrey", "Tim, Hawkins"]};
+db.getCollection("Media").insert(document)
+
+document={Type: "Book",
+	Title: "MongoDB Basics",
+	Page: 330,
+	Year: 2015,
+	ISBN: "978-1-484210-53-6",
+	Publisher: "Apress",
+	Author: ["Varghese, Shiju"]};
+db.getCollection("Media").insert(document)
+
+document={Type: "Book",
+	Title: "Web Development with Go",
+	Page: 319,
+	Year: 2014,
+	ISBN: "978-1-484208-96-0",
+	Publisher: "Apress",
+	Author: ["David Hows", "Peter Membrey", "Eelco Plugge"]};
+db.getCollection("Media").insert(document)
+
+document={Type: "Book",
+	Title: "MongoDB: The Definitive Guide",
+	Page: 220,
+	Year: 2014,
+	ISBN: "978-1-449344-68-9",
+	Publisher: "O'Reilly Media",
+	Author: ["Kristina Chodorow"]};
+db.getCollection("Media").insert(document)
+
+document={Type: "Book",
+	Title: "MongoDB in Action: Covers MongoDB version 3.0",
+	Page: 135,
+	Year: 2016,
+	ISBN: "978-1-617291-60-9",
+	Publisher: "Manning Publications",
+	Author: ["Kyle Banker", "Peter Bakkum", "Shaun Verch", "Doug Garrett"]};
+db.getCollection("Media").insert(document)
+
+document={Type: "Book",
+	Title: "Learning Web App Development",
+	Page: 430,
+	Year: 2015,
+	ISBN: "978-1-449370-19-0",
+	Publisher: "O'Reilly Media",
+	Author: ["Semmy Purewal"]};
+db.getCollection("Media").insert(document)
+
+document={Type: "CD",
+	Title: "Classic Rock: Gold",
+	Artist: "VARIOUS ARTISTS", 
+	Year: 2006,
+	Tracklist: [
+		{Track: "1",
+		Title: "Born To Be Wild - Steppenwolf",
+		Length: "3:45"},
+		{Track: "2",
+		Title: "Evil Ways - Santana",
+		Length: "4:15"},
+		{Track: "3",
+		Title: "American Woman - Guess Who",
+		Length: "3:55"}
+	],
+	Price: {New: 16, Used: 14}};
+db.getCollection("Media").insert(document)
+
+document={Type: "CD",
+	Title: "Now That's What I Call Classic Rock",
+	Artist: "Now Music", 
+	Year: 2004,
+	Tracklist: [
+		{Track: "1",
+		Title: "We Will Rock You",
+		Length: "4:35"},
+		{Track: "2",
+		Title: "Barracuda",
+		Length: "4:23"},
+		{Track: "3",
+		Title: "The Spirit Of Radio",
+		Length: "3:51"},
+		{Track: "4",
+		Title: "My Generation",
+		Length: "4:51"}
+	],
+	Price: {New: 16, Used: 14}};
+db.getCollection("Media").insert(document)
+
+document={Type: "CD",
+	Title: "Casey Kasem: 80s Rocks Greatest Hits",
+	Artist: "VARIOUS ARTISTS", 
+	Year: 2008,
+	Tracklist: [
+		{Track: "1",
+		Title: "Here I Go Again -- Whitesnake",
+		Length: "4:42"},
+		{Track: "2",
+		Title: "Cum On Feel that Noize -- Quiet Riot",
+		Length: "4:25"},
+		{Track: "3",
+		Title: "Every Rose Has Its Thorn -- Poison",
+		Length: "5:01"}
+	],
+	Price: {New: 15, Used: 13}};
+db.getCollection("Media").insert(document)
+
+document={Type: "CD",
+	Title: "Pure 80's",
+	Artist: "Pure 80's",
+	Year: 2010, 
+	Tracklist: [
+		{Track: "1",
+		Title: "Video Killed The Radio Star - The Buggles",
+		Length: "4:45"},
+		{Track: "2",
+		Title: "Sweet Dreams (Are Made Of This) - Eurythmics",
+		Length: "5:15"}
+	],
+	Price: {New: 13, Used: 12}};
+db.getCollection("Media").insert(document)
+
+document={Type: "CD",
+	Title: "Off The Wall",
+	Artist: "Michael Jackson", 
+	Year: 2016,
+	Tracklist: [
+		{Track: "1",
+		Title: "Don't Stop 'Til You Get Enough",
+		Length: "4:35"},
+		{Track: "2",
+		Title: "Rock With You",
+		Length: "3:15"},
+		{Track: "3",
+		Title: "Workin' Day And Night",
+		Length: "4:55"}
+	],
+	Price: {New: 15, Used: 13}};
+db.getCollection("Media").insert(document)

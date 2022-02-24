@@ -1,0 +1,21 @@
+From,Name,Relationship Type,To,Name
+1,Amada Emory,MORTHER_OF,11,Famala Forward
+1,Amada Emory,MORTHER_OF,12,Melva Fairchild
+1,Amada Emory,MORTHER_OF,13,Antione Seiman
+2,Rana Seely,MORTHER_OF,14,Camelia Cali
+2,Rana Seely,MORTHER_OF,15,Fairy Daughtery
+2,Rana Seely,MORTHER_OF,16,Stefany Mcamis
+3,Detra Thatcher,MORTHER_OF,17,Kemit Meaney
+3,Detra Thatcher,MORTHER_OF,18,Williemae Dossantos
+3,Detra Thatcher,MORTHER_OF,19,Marth Sparling
+10,Anderson Spagnola,FATHER_OF,20,Jarvis Noland
+14,Camelia Cali,MORTHER_OF,1,Amada Emory
+11,Famala Forward,MORTHER_OF,2,Rana Seely
+11,Famala Forward,MORTHER_OF,3,Detra Thatcher
+12,Melva Fairchild,MORTHER_OF,4,Melda Reza
+12,Melva Fairchild,MORTHER_OF,5,Shana Willems
+12,Melva Fairchild,MORTHER_OF,6,Sharonda Peele
+17,Kemit Meaney,FATHER_OF,7,Dagny Agee
+13,Antione Seiman,MORTHER_OF,8,Tisa Woodman
+13,Antione Seiman,MORTHER_OF,9,Shelba Mutchler
+20,Jarvis Noland,FATHER_OF,1,Amada Emory
